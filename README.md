@@ -4,11 +4,11 @@
 
 2. Adicione as dependências: Spring Data JPA e MySQL Driver no pom.xml
 
-Spring Data JPA é um wrapper do Hibernate que facilita o controle de transações, implementa 
+- Spring Data JPA é um wrapper do Hibernate que facilita o controle de transações, implementa 
 
-O padrão Repository que serve como um intermediário entre o domínio e a camada de persistência.
+- O padrão Repository que serve como um intermediário entre o domínio e a camada de persistência.
 
-MySQL Driver é o driver JDBC necessário para acessar o MySql ou outro RDB
+- MySQL Driver é o driver JDBC necessário para acessar o MySql ou outro RDB
 
 2. Use o MySql local e não no Docker (sugerido pelo guia).
 
